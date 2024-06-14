@@ -152,19 +152,18 @@ class _JobDetailState extends State<JobDetail> {
                 )
                     .toList(),
                 Container(
-                  margin: EdgeInsets.symmetric(vertical: 25),
+                  margin: const EdgeInsets.symmetric(vertical: 25),
                   height: 45,
                   width: double.maxFinite,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                        elevation: 0,
-                        primary: Theme.of(context).primaryColor,
+                        elevation: 0, backgroundColor: Theme.of(context).primaryColor,
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(20))),
                     onPressed: () {
                       Navigator.pop(context);
                     },
-                    child: Text('Apply Now'),
+                    child: const Text('Apply Now'),
                   ),
                 )
               ],
