@@ -76,7 +76,7 @@ class _JobItemState extends State<JobItem> {
             ],
           ),
           SizedBox(
-            height: 15,
+            height: 10,
           ),
           Text(
             widget.job.title,

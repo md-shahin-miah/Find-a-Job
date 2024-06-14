@@ -19,7 +19,7 @@ class _SearchOptionState extends State<SearchOption> {
   Widget build(BuildContext context) {
     var key = optionMap.keys.toList();
     return Container(
-      height: 25,
+      height: 35,
       padding: EdgeInsets.symmetric(horizontal: 25),
       child: ListView.separated(
           scrollDirection: Axis.horizontal,
