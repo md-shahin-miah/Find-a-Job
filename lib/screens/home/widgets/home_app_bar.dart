@@ -29,7 +29,7 @@ class HomeAPpBar extends StatelessWidget {
           Row(
             children: [
               Container(
-                margin: EdgeInsets.only(top: 30,right: 10),
+                margin: const EdgeInsets.only(top: 30,right: 10),
                 transform: Matrix4.rotationZ(100),
                 child: Stack(
                   children: [
@@ -42,15 +42,15 @@ class HomeAPpBar extends StatelessWidget {
                       right: 0,
                       top: 0,
                       child: Container(
-                        padding: EdgeInsets.all(4),
-                        decoration: BoxDecoration(
+                        padding: const EdgeInsets.all(4),
+                        decoration: const BoxDecoration(
                             color: Colors.red, shape: BoxShape.circle),
                       ),
                     ),
                   ],
                 ),
               ),
-              SizedBox(width: 20,),
+              const SizedBox(width: 20,),
               ClipOval(
                 child: Image.asset(
                   'assets/images/avatar.png',
