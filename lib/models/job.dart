@@ -71,6 +71,22 @@ class Job {
           'Good technical and IT skills'
         ],
       ),
+      Job(
+        'Meta LLC',
+        'assets/images/google_logo.png',
+        false,
+        'Principal Product Design',
+        '417 Marion , New York\nUnited States',
+        'Full Time',
+        [
+          'Bachelors degree in industrial design, manufacturing, engineering, or a related field.',
+          'A creative eye, good imagination, and vision.',
+          'A firm grasp of market trends and consumer preferences.',
+          'Practical experience using computer-aided design software.',
+          'Good technical and IT skills.'
+        ],
+      ),
+
     ];
   }
 }

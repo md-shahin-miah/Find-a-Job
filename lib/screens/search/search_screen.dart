@@ -39,9 +39,9 @@ class _SearchScreenState extends State<SearchScreen> {
           ),
           Column(
             children: [
-              SearchAppBar(),
-              SearchInput(),
-              SearchOption(),
+              const SearchAppBar(),
+              const SearchInput(),
+              const SearchOption(),
               Expanded(child: SearchList()),
             ],
           )

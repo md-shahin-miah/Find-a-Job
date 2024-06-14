@@ -1,3 +1,4 @@
+import 'package:find_a_job/screens/bookmark/book_mark_screen.dart';
 import 'package:find_a_job/screens/home/home_screen.dart';
 import 'package:find_a_job/screens/textscreens/test1.dart';
 import 'package:find_a_job/screens/textscreens/test2.dart';
@@ -19,9 +20,9 @@ class _MainScreenState extends State<MainScreen> {
 
   final List<Widget> pageList = <Widget>[
     HomeScreen(),
-    Test1(),
-    Test2(),
-    Test3(),
+    const Test1(),
+    const Test2(),
+    const BookmarkScreen(),
   ];
 
   @override
@@ -32,7 +33,7 @@ class _MainScreenState extends State<MainScreen> {
       floatingActionButton: FloatingActionButton(
         backgroundColor: Theme.of(context).colorScheme.secondary,
         onPressed: () {},
-        child: Icon(Icons.add),
+        child: const Icon(Icons.add),
         // shape: CircularNotchedRectangle,
       ),
       body: pageList[pageIndex],
