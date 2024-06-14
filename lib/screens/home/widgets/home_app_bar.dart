@@ -12,7 +12,7 @@ class HomeAPpBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Column(
+          const Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
@@ -21,7 +21,7 @@ class HomeAPpBar extends StatelessWidget {
                 TextStyle(fontWeight: FontWeight.bold, color: Colors.grey),
               ),
               Text(
-                'Arham Javed',
+                'Shahin Miah',
                 style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
               ),
             ],
@@ -33,7 +33,7 @@ class HomeAPpBar extends StatelessWidget {
                 transform: Matrix4.rotationZ(100),
                 child: Stack(
                   children: [
-                    Icon(
+                    const Icon(
                       Icons.notifications_none_outlined,
                       size: 30,
                       color: Colors.grey,
